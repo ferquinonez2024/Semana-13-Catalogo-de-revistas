@@ -1,0 +1,12 @@
+catalogo_revistas = [
+    "Revista de Ciencia Ficción",
+    "National Geographic",
+    "Time Magazine",
+    "Forbes",
+    "The Economist",
+    "Scientific American",
+    "Nature",
+    "Science",
+    "Harvard Business Review",
+    "PC Magazine"
+]
