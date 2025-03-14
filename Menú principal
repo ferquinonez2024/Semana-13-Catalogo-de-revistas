@@ -1,0 +1,17 @@
+while True:
+    print("\n--- Menú Principal ---")
+    print("1. Buscar título")
+    print("2. Salir")
+
+    opcion = input("Ingrese una opción: ")
+
+    if opcion == "1":
+        titulo_buscar = input("Ingrese el título a buscar: ")
+        resultado = buscar_titulo(catalogo_revistas, titulo_buscar)
+        print(f"Resultado de la búsqueda: {resultado}")
+    elif opcion == "2":
+        break
+    else:
+        print("Opción inválida. Intente de nuevo.")
+
+print("¡Hasta luego!")
