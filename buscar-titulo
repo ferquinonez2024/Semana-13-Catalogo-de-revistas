@@ -1,0 +1,15 @@
+def buscar_titulo(catalogo, titulo_buscar):
+    """
+    Busca un título en un catálogo de revistas de forma iterativa.
+
+    Args:
+        catalogo: Lista de títulos de revistas.
+        titulo_buscar: Título a buscar.
+
+    Returns:
+        "Encontrado" si el título existe, "No encontrado" en caso contrario.
+    """
+    for titulo in catalogo:
+        if titulo.lower() == titulo_buscar.lower():
+            return "Encontrado"
+    return "No encontrado"
